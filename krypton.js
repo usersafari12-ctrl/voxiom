@@ -1056,7 +1056,7 @@ resetEverythingButton.addEventListener('click', function () {
 				existingLink.remove();
 			}
 
-			const defaultCSS = 'https://kryptonvox.netlify.app/main.css';
+			const defaultCSS = 'https://raw.githubusercontent.com/usersafari12-ctrl/voxiom/refs/heads/main/cool.css';
 			const link = document.createElement('link');
 			link.rel = 'stylesheet';
 			link.href = defaultCSS;
